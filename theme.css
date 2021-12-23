@@ -1,0 +1,104 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, strong{
+    color: #2c4052;
+    font-family: 'Montserrat', sans-serif;
+}
+p, b, li, span, label, input, textarea{
+    color: #000000;
+    font-family: 'Roboto', serif;
+
+}
+li {
+    list-style-type: disc;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#5d85a7;
+    
+}
+ul{
+    list-style:none;
+}
+
+
+h1 {font-size: 56px;}
+h2 {font-size: 35px;
+    display: inline;
+    }
+h3 {font-size: 27px;}
+h4 {font-size: 23px;}
+h5 {font-size: 19px;}
+h6 {font-size: 15px;}
+
+body{
+    background-color: #cfdaf3;;
+}
+
+
+
+.bg-container{
+    background-color: #8EACC1;
+}
+.grid-custom{
+    background-color: cornflowerblue;
+    border-radius: 5px 5px 0 0;
+
+    -webkit-box-shadow: 5px 5px 15px 5px #4B5156; 
+    box-shadow: 5px 5px 15px 5px #4B5156;
+    background: #8EACC1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
+   /* grid-template-areas: 'navi-wrapper navi-wrapper' 'l-col r-col';*/
+    
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 30, 94);
+}
+
+
+.proj-1-container{
+   background-color:rgb(112, 139, 189);
+
+}
+.proj-2-container{
+    background-color: rgb(112, 139, 189);
+}
+.proj-3-container{
+    background-color: rgb(112, 139, 189);
+
+}
+.proj-2-container{
+    background-color: rgb(112, 139, 189);
+}
+.proj-3-container{
+    background-color: rgb(112, 139, 189);
+}
+.proj-4-container{
+    background-color: rgb(112, 139, 189);
+}
+
+.proj-5-container{
+   background-color: rgb(112, 139, 189);
+}
+.proj-6-container{
+   background-color: rgb(112, 139, 189);
+}
+.proj-7-container{
+    background-color: rgb(112, 139, 189);
+}
+
+#About-Box{
+    /*width: 345px;*/
+    /*border: 3px solid #c1c1c1;*/
+    background-color: #8EACC1;
+    padding: 15px;
+ 
+    /*left: 805px*/
+}
