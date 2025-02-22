@@ -1,205 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Abdal Khan's Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-
-
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="theme.css">
-  
-      
-    <title>Abdal Khan's Portfolio Page</title>
-  </head>
-  <body>
-    <h1 class="display-1 text-center">Abdal Khan's Portfolio Page</h1>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
-<div class="container shadow p-5 mb-5 rounded bg-container">
-    <div class="container">
-      <div class="row">
-        <div class = "col-md-6">
-          <img id ="mejpg" src="img/me.jpg" alt="me" class ="img-fluid rounded" width = "350" height="250"> <br><br>
-        </div>
-        <div class = "col-md-6">
-          <div id="About-Box">
-            <h2><b>About me</b></h2>
-                        <h5 style="color:rgb(83, 83, 83);"> <b>I am a Software Engineer with two years of experience designing, developing, and deploying scalable applications.</b></h5>
-                        <span style="color:#2c4052;"> <strong>Location: </strong></span>
-                        <span style="color:rgb(83, 83, 83);"> <b>Columbia, Maryland</b></span>
-                        <br>
-                        <span style="color:#2c4052;"> <strong>E-mail Address: </strong></span>
-                        <span style="color:rgb(83, 83, 83);"> <b>abdalmk98@gmail.com</b></span> 
-                        <br>
-                        <a  href="Abdal Khan Resume.pdf" download><button class="btn btn-dark btn-md rounded-pill">Download CV</button></a>
-                        <br><br>
-              </div>
-        </div>
-      </div>
-      <div class = "row">
-        <div class ="col-md">
-          <h3 class="text-center"><b>Projects</b></h3>
-        </div>
-      </div>
-      <div class = "row">
-        <div class ="col-md">
-          <div class ="proj-1-container shadow p-3 mb-5 rounded">
-            <h5><b> EKANS </b></h5> <br>
-            <img id = "proj1" src="img/gamescreenshot.PNG" alt ="EKANS" class="img-thumbnail" >
-        <b>  <ul>
-               <li>  Developed in a group of 5 remotely. </li>
-               <li>  Video game in which you play as a pellet and avoid snakes. </li> 
-               <li>  Has a leaderboard feature. </li> 
-               <li>  Managed the group, set deadlines, and worked on the scoring system and composed the music.</li> 
-            </ul> </b>
-            
-          <p></p>
-         <b><u> Technologies used: </u><br>
-          <ul><li>C++/C </li>
-            <li> CMake </li>
-            <li> Flask </li>
-            <li> BeepBox </li>
-            <li> Github </li> </b></ul>
-            <p></p>
-            <a href="https://github.com/jonathan-haubrich/CMSC447-Reverse-Snake" class="btn btn-dark btn-md rounded">EKANS Repository</a>
-      </div>  
-        </div>
-        <div class ="col-md">
-          <div class = "proj-2-container shadow p-3 mb-5 rounded">
-            <h5><b>Image Automation Script</b></h5> <br>
-            <img src="img/CodeSnip.PNG" alt ="Image Auto" class="img-thumbnail" >
-            <b> <ul> <li> Developed a script that interacts with jAlbum, the command line, HTML, and Javascript code. </li>
-                     <li> The script uploads images from a local machine to an FTP server. </li> </ul>  </b>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-               <p></p>
-              <b> <u> Technologies used: </u> 
-                <ul> <li> Javascript </li>
-                     <li> Python </li>
-                    <li>  HTML </li>
-                    <li>  Command Line </li>
-                    <li>  Github  </li>
-                    <li>  jAlbum </li>
-               </ul>
-                   </b>
-                  <p></p>
-                 <a href="https://github.com/AMK9819/Image-Automation" class = "btn btn-dark btn-md rounded" >Image Automation Repository</a>
-          
-          </div>
-          
+    <h1 class="display-4">Abdal Khan's Portfolio</h1>
+
+    <div class="container bg-container shadow mt-4 p-4">
+        <div class="text-center">
+            <img src="img/me.jpg" alt="Abdal Khan" width="250" class="rounded-circle shadow">
         </div>
-          
+        <h2 class="mt-3"><b>About Me</b></h2>
+        <p class="text-center"><b>I am a Software Engineer with two years of experience designing, developing, and deploying scalable applications.</b></p>
         
-        <div class ="col-md">
-          <div class ="proj-3-container shadow p-3 mb-5 rounded">
-           <h5><b>EPOCH Medical eMonitoring System</b> </h5><br>
-           <img src="img/medpagescreenshot.PNG" alt ="eMonitoring" class="img-thumbnail" >
-          <b> <ul>
-                <li>   Developed in a group of 3 remotely. </li>
-                <li>   Medical website in which you can look at patient information of three patients. </li>
-                <li>     Can set medical equipment and data. </li>
-               <li>      Tasked with styling the website, developing popups and patient vital information. </li> </ul>  </b>
-
-              <p></p>
-                <b> <u> Technologies used: </u> 
-                  <ul> <li> Javascript </li>
-                       <li> HTML </li> 
-                      <li>  CSS </li> 
-                     <li>   Github Desktop </li> </ul>
-                     <li>   Visual Studio Code </li></ul>
-
-                </b>
-                <p></p>
-                <a href="https://github.com/AMK9819/eMonitoringSystem" class = "btn btn-dark btn-md rounded" >EPOCH eMonitoring Repository</a>
-          </div>
+        <p><strong>Location:</strong> Columbia, Maryland</p>
+        <p><strong>Email:</strong> abdalmk98@gmail.com</p>
+        
+        <div class="text-center">
+            <a href="Abdal_Khan_Resume.pdf" download class="btn btn-dark btn-custom">Download CV</a>
         </div>
-      </div>
 
-        <div class = "row">
-          <div class ="col-md">
-            <div class ="proj-6-container shadow p-3 mb-5 rounded">
-              <h5> <b>Packed Malware </b></h5> <br>
-              <img src="img/malwareanalysis.PNG" alt ="malware" class="img-thumbnail">
-             <b><ul> <li> Researched various malware that were packed.</li> 
-                     <li> Worked on unpacking them to retrieve entrypoints, imported functions, and modules.</li> 
-               </ul></b> 
+        <!-- Social Links -->
+        <div class="social-icons text-center mt-3">
+            <a href="https://www.linkedin.com/in/abdal-khan-94184823/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/AMK9819" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://huggingface.co/AbdalK25" target="_blank" class="hugging-face">
+              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" class="hugging-face-logo"></a>
+        </div>
+    </div>
 
-                <p></p>
-                <b> <u> Technologies used: </u> <br>
-                <ul> <li>OllyDumpEx</li> 
-                     <li>ImportREC</li>  
-                     <li>VMware</li> 
-                    <li>Immunity Debugger</li>  
-                    <li>IDA</li>  
-               </ul>
-                </b>
+    <div class="container mt-4">
+        <h2><b>Projects</b></h2>
+
+        <!-- Project 1 -->
+        <div class="project-container">
+            <h5><b>EKANS</b></h5>
+            <img src="img/gamescreenshot.PNG" alt="EKANS">
+            <p>A game where you play as a pellet avoiding snakes, featuring a leaderboard system.</p>
+            <div id="proj1" class="collapse">
+                <ul>
+                    <li>Developed in a team of 5 remotely.</li>
+                    <li>Managed the team, set deadlines, and developed scoring & music.</li>
+                    <li>Technologies: C++, CMake, Flask, BeepBox, GitHub</li>
+                </ul>
             </div>
+            <a href="https://github.com/jonathan-haubrich/CMSC447-Reverse-Snake" class="btn btn-dark btn-sm mt-2">View Repository</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-container">
+            <h5><b>Image Automation Script</b></h5>
+            <img src="img/CodeSnip.PNG" alt="Image Automation">
+            <p>Automates uploading images to an FTP server using jAlbum.</p>
+            <div id="proj2" class="collapse">
+                <ul>
+                    <li>Interacts with jAlbum, command line, HTML, and JavaScript.</li>
+                    <li>Technologies: JavaScript, Python, Command Line, jAlbum</li>
+                </ul>
+            </div>
+            <a href="https://github.com/AMK9819/Image-Automation" class="btn btn-dark btn-sm mt-2">View Repository</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-container">
+            <h5><b>EPOCH Medical eMonitoring System</b></h5>
+            <img src="img/medpagescreenshot.PNG" alt="eMonitoring">
+            <p>A medical website for patient monitoring and equipment setup.</p>
+            <div id="proj3" class="collapse">
+                <ul>
+                    <li>Worked in a team of 3, developed UI, popups, and patient vital displays.</li>
+                    <li>Technologies: JavaScript, HTML, CSS, GitHub</li>
+                </ul>
+            </div>
+            <a href="https://github.com/AMK9819/eMonitoringSystem" class="btn btn-dark btn-sm mt-2">View Repository</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-container">
+          <h5><b>Discord Bot</b></h5>
+          <img src="img/discordbot.PNG" alt="Bot">
+          <p>A chatbot that you can talk to on discord.</p>
+          <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#proj3">View Details</button>
+          <div id="proj3" class="collapse">
+              <ul>
+                  <li>Developed and discord chatbot.</li>
+                  <li>Wrote a transcript that an AI reads from and uses in order to respond to user inquiries</li>
+                  <li>Technologies: Python, Hugging Face, DialoGPT</li>
+              </ul>
           </div>
-
-                  <div class ="col-md">
-                    <div class ="proj-4-container shadow p-3 mb-5 rounded">
-                     <h5> <b>Return-to-libc Attack </b></h5><br>
-                     <img src="img/retlibc.png" alt ="libc" class="img-thumbnail">
-                      <b>
-                        <ul> <li> Developed a return-to-libc attack to exploit a vulnerable program. </li> 
-                             <li> Goal was to obtain root access. </li>
-                             <li>  Developed remotely in a group of 4.</li> </ul> </b>
-
-                         <p></p>
-                         <b> <u> Technologies used: </u> 
-                           <ul> <li> C/Python</li> 
-                                <li> VMware/SEEDUbuntu </li>
-                                <li> Command Line </li>
-                                <li> UNIX Shell </li>
-
-                          </ul>
-                            </b>
-                          
-  
-              </div>
-            </div>
-
-            <div class ="col-md">
-              <div class ="proj-5-container shadow p-3 mb-5 rounded">
-                <h5> <b>Average Calculator</b> </h5><br>
-                <img src="img/GUIcalc.PNG" alt ="AvgC" class="img-thumbnail">
-                <b> <ul> 
-                      <li> Developed a simple Python GUI that calculates the average of two grades</li>
-                    </ul> </b>
-
-                <p></p>
-                <b> <u> Technologies used: </u> <br>
-                  <ul>
-                    <li> Python </li>
-                    <li> Visual Studio Code </li>
-                  </ul><br>
-                  </b>
-                  <a href="https://github.com/AMK9819/AverageCalculator"  class = "btn btn-dark btn-md rounded" >Average Calculator Repository</a>
-
-                </div>
-              </div>
-                </div>             
+          <a href="https://huggingface.co/AbdalK25/DialoGPT-small-TheWiseBot/tree/main" class="btn btn-dark btn-sm mt-2">View Repository</a>
       </div>
-       
-      </div> 
-</div> 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

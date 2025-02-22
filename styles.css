@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #e0f2ff, #b3e0ff); /* Soft light blue */
+    color: #003366;
+    padding-bottom: 50px;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Background Card */
+.bg-container {
+    background: linear-gradient(135deg, #ffffff, #eaf6ff);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    color: #004488;
+}
+
+.bg-container:hover {
+    transform: scale(1.02);
+}
+
+/* Title Styling */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3rem; /* Larger font size */
+    font-weight: 900;
+    color: #003366;
+    text-shadow: 3px 3px 10px rgba(0, 51, 102, 0.3); /* Soft glowing effect */
+    letter-spacing: 1.5px;
+    padding: 15px 0;
+}
+
+/* Subtitle & Headings */
+h2, h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #007acc;
+}
+
+/* Buttons */
+.btn-custom {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-custom:hover {
+    background-color: #005b99;
+    transform: translateY(-3px);
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin: 10px;
+    color: #007acc;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.hugging-face-logo {
+    width: 30px;  /* Adjust width */
+    height: 30px; /* Adjust height */
+}
+
+.social-icons a:hover {
+    color: #005b99;
+    transform: scale(1.2);
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Project Cards */
+.project-container {
+    background: linear-gradient(135deg, #ffffff, #eaf6ff);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.project-container:hover {
+    transform: scale(1.02);
+}
+
+/* Project Title */
+.project-container h5 {
+    color: #004488;
+    font-weight: bold;
+}
+
+/* Collapse Button */
+.btn-sm {
+    background-color: #005b99;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-sm:hover {
+    background-color: #003f7f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(135deg, #005b99, #003f7f);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
