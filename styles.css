@@ -1,3 +1,15 @@
+
+/*For color choice feature: WIP*/
+:root {
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --accent-soft: rgba(59, 130, 246, 0.15);
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
